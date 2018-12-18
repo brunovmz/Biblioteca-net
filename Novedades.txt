@@ -1,0 +1,7 @@
+1;"Historia Argentina";200
+2;"Quien se robo mi queso";400
+3;"Las Mil y una noches";300
+4;"Manual de SQL";220
+5;"Aprenda PHP en 21 hs";220
+6;"Martin Fierro";290
+7;"Facundo";220

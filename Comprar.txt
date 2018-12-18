@@ -1,0 +1,12 @@
+ public void Comprar(List<string> pArchivo)
+        {
+            StreamWriter file = new StreamWriter(@"C:\compras.txt");
+
+            foreach (string item in pArchivo)
+            {
+                file.WriteLine(item);
+            }
+
+
+            file.Close();
+        }

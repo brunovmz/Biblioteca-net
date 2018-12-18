@@ -1,0 +1,15 @@
+ List<string> nov = new List<string>();
+
+            foreach (DataGridViewRow row in dgvNovedades.Rows)
+            {
+
+                if (Convert.ToBoolean(row.Cells["Comprar"].Value).Equals(true))
+                {
+                    nov.Add(row.Cells[0].Value.ToString());
+                }
+
+            }
+            Logica.Libro logLibro = new Logica.Libro();
+            logLibro.Comprar(nov);
+
+            MessageBox.Show("datos enviados!");

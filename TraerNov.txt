@@ -1,0 +1,16 @@
+ public List<Entidades.Libro> TraerNovedades()
+        {
+            List<Entidades.Libro> Novedades = new List<Entidades.Libro>();
+            string linea;
+            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Novedades.txt");
+
+            while ((linea = file.ReadLine()) != null)
+            {
+                Entidades.Libro l = new Entidades.Libro();
+                l.Titulo = linea;
+                Novedades.Add(l);
+            }
+
+            file.Close();
+            return Novedades;
+        }
