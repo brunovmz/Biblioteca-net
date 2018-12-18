@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLibros" targetNamespace="http://tempuri.org/dsLibros.xsd" xmlns:mstns="http://tempuri.org/dsLibros.xsd" xmlns="http://tempuri.org/dsLibros.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BibliotecaConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BibliotecaConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WinBiblioteca.Properties.Settings.GlobalReference.Default.BibliotecaConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_librosTableAdapter" GeneratorDataComponentClassName="v_librosTableAdapter" Name="v_libros" UserDataComponentName="v_librosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BibliotecaConnectionString (Settings)" DbObjectName="Biblioteca.dbo.v_libros" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Isbn, Titulo, esEspañol, Autor, Genero, Editorial FROM dbo.v_libros</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Isbn" DataSetColumn="Isbn" />
+              <Mapping SourceColumn="Titulo" DataSetColumn="Titulo" />
+              <Mapping SourceColumn="esEspañol" DataSetColumn="esEspañol" />
+              <Mapping SourceColumn="Autor" DataSetColumn="Autor" />
+              <Mapping SourceColumn="Genero" DataSetColumn="Genero" />
+              <Mapping SourceColumn="Editorial" DataSetColumn="Editorial" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLibros" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsLibros" msprop:Generator_UserDSName="dsLibros">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_libros" msprop:Generator_TableClassName="v_librosDataTable" msprop:Generator_TableVarName="tablev_libros" msprop:Generator_TablePropName="v_libros" msprop:Generator_RowDeletingName="v_librosRowDeleting" msprop:Generator_RowChangingName="v_librosRowChanging" msprop:Generator_RowEvHandlerName="v_librosRowChangeEventHandler" msprop:Generator_RowDeletedName="v_librosRowDeleted" msprop:Generator_UserTableName="v_libros" msprop:Generator_RowChangedName="v_librosRowChanged" msprop:Generator_RowEvArgName="v_librosRowChangeEvent" msprop:Generator_RowClassName="v_librosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Isbn" msprop:Generator_ColumnVarNameInTable="columnIsbn" msprop:Generator_ColumnPropNameInRow="Isbn" msprop:Generator_ColumnPropNameInTable="IsbnColumn" msprop:Generator_UserColumnName="Isbn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titulo" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" msprop:Generator_UserColumnName="Titulo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="esEspañol" msprop:Generator_ColumnVarNameInTable="columnesEspañol" msprop:Generator_ColumnPropNameInRow="esEspañol" msprop:Generator_ColumnPropNameInTable="esEspañolColumn" msprop:Generator_UserColumnName="esEspañol" type="xs:boolean" />
+              <xs:element name="Autor" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAutor" msprop:Generator_ColumnPropNameInRow="Autor" msprop:Generator_ColumnPropNameInTable="AutorColumn" msprop:Generator_UserColumnName="Autor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="102" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Genero" msprop:Generator_ColumnVarNameInTable="columnGenero" msprop:Generator_ColumnPropNameInRow="Genero" msprop:Generator_ColumnPropNameInTable="GeneroColumn" msprop:Generator_UserColumnName="Genero" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Editorial" msprop:Generator_ColumnVarNameInTable="columnEditorial" msprop:Generator_ColumnPropNameInRow="Editorial" msprop:Generator_ColumnPropNameInTable="EditorialColumn" msprop:Generator_UserColumnName="Editorial" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_libros" />
+      <xs:field xpath="mstns:Isbn" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\Entidades\bin\Release\Entidades.dll
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\Entidades\bin\Release\Entidades.pdb
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\Entidades\obj\Release\Entidades.dll
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\Entidades\obj\Release\Entidades.pdb
+C:\Users\Bruno\Desktop\paginasWebs\Clase10_profe\SolucionBibliotecaSabados2\Entidades\bin\Release\Entidades.dll
+C:\Users\Bruno\Desktop\paginasWebs\Clase10_profe\SolucionBibliotecaSabados2\Entidades\bin\Release\Entidades.pdb
+C:\Users\Bruno\Desktop\paginasWebs\Clase10_profe\SolucionBibliotecaSabados2\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\paginasWebs\Clase10_profe\SolucionBibliotecaSabados2\Entidades\obj\Release\Entidades.dll
+C:\Users\Bruno\Desktop\paginasWebs\Clase10_profe\SolucionBibliotecaSabados2\Entidades\obj\Release\Entidades.pdb

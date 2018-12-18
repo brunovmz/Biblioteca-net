@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\bin\Release\ConsolaBiblioteca.exe.config
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\bin\Release\ConsolaBiblioteca.exe
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\bin\Release\ConsolaBiblioteca.pdb
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\bin\Release\Entidades.dll
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\bin\Release\Entidades.pdb
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\obj\Release\ConsolaBiblioteca.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\obj\Release\ConsolaBiblioteca.exe
+C:\Users\alumno\Desktop\Clase10\SolucionBibliotecaSabados2\ConsolaBiblioteca\obj\Release\ConsolaBiblioteca.pdb
